@@ -46,30 +46,51 @@
         }
 
         .course {
-            background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             width: 250px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, background-color 0.3s ease;
             scroll-snap-align: start;
+            color: #fff;
+            text-align: center;
         }
 
         .course:hover {
             transform: translateY(-10px);
-            background-color: #ffeb3b; /* Yellow background on hover */
+        }
+
+        .course:nth-child(1) {
+            background-color: #ff5733; /* Orange */
+        }
+        .course:nth-child(2) {
+            background-color: #33c1ff; /* Blue */
+        }
+        .course:nth-child(3) {
+            background-color: #8bc34a; /* Green */
+        }
+        .course:nth-child(4) {
+            background-color: #ffc107; /* Yellow */
+        }
+        .course:nth-child(5) {
+            background-color: #9c27b0; /* Purple */
         }
 
         .course a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
             font-size: 18px;
             display: block;
-            text-align: center;
         }
 
         .contact {
             margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .contact .phone-icon {
+            font-size: 24px;
+            margin-right: 10px;
         }
 
         .whatsapp {
@@ -139,14 +160,16 @@
             </div>
         </div>
 
-        <!-- Contact & WhatsApp -->
+        <!-- Contact Section -->
         <div class="contact">
             <h3>যোগাযোগের নম্বর:</h3>
-            <p>+৮৮০ ১৭০০ ০০০০০</p>
+            <p><span class="phone-icon">📞</span> ০১৭৭৮৬৮২৮১৫</p>
         </div>
+
+        <!-- WhatsApp Section -->
         <div class="whatsapp">
-            <img src="whatsapp-logo.png" alt="WhatsApp Logo">
-            <a href="https://wa.me/your-whatsapp-number" target="_blank">WhatsApp এ যোগাযোগ করুন</a>
+            <img src="official-whatsapp-logo.png" alt="Official WhatsApp Logo">
+            <a href="https://wa.me/01778682815" target="_blank">WhatsApp এ যোগাযোগ করুন</a>
         </div>
     </div>
 </body>
